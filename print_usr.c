@@ -31,7 +31,7 @@ ibuf = handl_buf(buf, hexadecimal[7], ibuf);
 sum += 3;
 }
 else
-buf = handl_buf(buf, str[i], ibuf);
+ibuf = handl_buf(buf, str[i], ibuf);
 }
 free(binary);
 free(hexadecimal);
